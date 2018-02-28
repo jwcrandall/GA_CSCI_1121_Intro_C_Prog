@@ -8,11 +8,14 @@ int main () {
       if (i % j == 0){
         break;
       }
-      if(j > sqrt(i)){
-        printf("%d\n", i);
+      if(j > sqirt(i)){
+      //if (j == i-1){
+      printf("%d\n", i);
+      //}
         break;
       }
     }
+
   }
   return 0;
 }
