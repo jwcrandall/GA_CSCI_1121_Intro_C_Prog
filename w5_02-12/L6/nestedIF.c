@@ -4,16 +4,16 @@ int main(){
   printf("Type a number: ");
   scanf("%d", &num);
   if( num%6==0 && num%9==0){
-    printf("Number is divisible by both 6 and 9");
+    printf("Number is divisible by both 6 and 9\n");
   }
-  else if( num%9==0){
-    printf("Number is divisible by 9");
+  if( num%9==0){
+    printf("Number is divisible by 9\n");
   }
-  else if(num%6==0){
-    printf("Number is divisible by 6");
+  if(num%6==0){
+    printf("Number is divisible by 6\n");
   }
   else{
-    printf("Number is divisible by none");
+    printf("Number is divisible by none\n");
   }
 return 0;
 }
