@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
   int grade = 20;
-  printf("%d\n", grade);
+  printf("Hello %d\n", grade);
   grade++;
   printf("%d\n", grade);
   ++grade;
