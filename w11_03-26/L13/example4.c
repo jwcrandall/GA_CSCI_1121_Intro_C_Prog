@@ -1,6 +1,11 @@
 #include <stdio.h>
-#include <string.h>
 int main(void){
-  char str[30];
-  return !printf("%s\n", strcat(strcpy(strcpy(str,"Water")+5, "melon ref"), "reshment")-5);
+  int *p, i;
+  p = &i;
+  *p = 1;
+  while(*p <= 10){
+    printf("%d\n", *p);
+    (*p)++;
+  }
+  return 0;
 }
