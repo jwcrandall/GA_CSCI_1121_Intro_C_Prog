@@ -5,6 +5,7 @@ int main(void){
   i = 100;
   ptr2 = &j;
   j = *ptr2 + *ptr1;
+  printf("%d\n", j);
   ptr3 = &k;
   k = *ptr3 + *ptr2;
   printf("%d %d %d\n", *ptr1, *ptr2, *ptr3);
