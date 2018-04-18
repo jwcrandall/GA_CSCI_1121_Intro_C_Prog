@@ -6,7 +6,7 @@ int main(void){
   scanf("%d", &num);
   pos = binary_search(arr, 7, num);
   if(pos == -1){
-    printf("%d is found in position %d\n", num, pos);
+    printf("%d is not found\n", num);
   }
   else{
     printf("%d is found in position %d\n", num, pos);
